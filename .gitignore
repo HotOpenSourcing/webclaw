@@ -1,7 +1,5 @@
 target/
 .DS_Store
-.env
-.env.*
 proxies.txt
 .claude/skills/
 # Scratch / local artifacts (previously covered by overbroad `*.json`,
@@ -17,3 +15,5 @@ research-*.json
 # packages/create-webclaw/). They are OAuth/API tokens — never commit them.
 .mcpregistry_*_token
 .lasso/
+config.bat
+node_modules

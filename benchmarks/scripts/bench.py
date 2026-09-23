@@ -16,6 +16,10 @@ Optional env:
     WEBCLAW_TIMEOUT         seconds (default: 30)
 """
 from __future__ import annotations
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json, os, re, statistics, subprocess, sys, time
 from pathlib import Path
 
